@@ -53,25 +53,25 @@ export default {
     }"
   >
     <swiper-slide class="swiper-slide">
-      <Slayd image-url="/src/assets/img/image%205.png" />
+      <Slayd image-url="./assets/img/image%205.png" />
     </swiper-slide>
     <swiper-slide class="swiper-slide">
-      <Slayd image-url="/src/assets/img/image%2024.png" />
+      <Slayd image-url="./assets/img/image%2024.png" />
     </swiper-slide>
     <swiper-slide class="swiper-slide">
-      <Slayd image-url="/src/assets/img/image%2025.png" />
+      <Slayd image-url="./assets/img/image%2025.png" />
     </swiper-slide>
     <swiper-slide class="swiper-slide">
-      <Slayd image-url="/src/assets/img/image%205.png" />
+      <Slayd image-url="./assets/img/image%205.png" />
     </swiper-slide>
     <swiper-slide class="swiper-slide">
-      <Slayd image-url="/src/assets/img/image%2024.png" />
+      <Slayd image-url="./assets/img/image%2024.png" />
     </swiper-slide>
     <swiper-slide class="swiper-slide">
-      <Slayd image-url="/src/assets/img/image%2025.png" />
+      <Slayd image-url="./assets/img/image%2025.png" />
     </swiper-slide>
     <swiper-slide class="swiper-slide">
-      <Slayd image-url="/src/assets/img/image%205.png" />
+      <Slayd image-url="./assets/img/image%205.png" />
     </swiper-slide>
   </swiper>
 </template>
