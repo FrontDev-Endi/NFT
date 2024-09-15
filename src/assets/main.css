@@ -1,0 +1,30 @@
+@import "./base.css";
+@import 'animate.css';
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  background: #1c121f;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  background: #47344d;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gold-five);
+  border-radius: 5px;
+}
+
+.swiper-pagination-bullet-active{
+  background: var(--gold-five) !important;
+}
+
+.swiper-pagination-bullet{
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.swiper-pagination{
+  top: 530px !important;
+}

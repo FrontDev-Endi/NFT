@@ -1,0 +1,157 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Common */
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ul,
+ul li {
+  list-style: none;
+}
+li {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button,
+input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+body {
+  --white-two: #f5fbf2;
+  --chestnut: #896e6e;
+  --gray-pink: #bdaac1;
+  --gray: #908294;
+  --burgundy: #3d2942;
+  --white: #ffffff;
+  --gray-two: #c6bfc8;
+  --pink: #d53d5c;
+  --gray-three: #76607a;
+  --lemon: rgba(233, 215, 167, 0.1);
+  --burgundy-two: #302034;
+  --burgundy-three: #372839;
+  --burgundy-four: #49374e;
+  --purple: #96839b;
+  --black: #000000;
+  --black-two: rgba(28, 18, 31, 1);
+  --dark-purple: #251928;
+  --purple-two: #794187;
+  --purple-three: rgba(134, 19, 165, 1);
+  --lemon-two: #fde8b3;
+  --lime: #b1d26f;
+  --purple-four: #c2b5c6;
+  --red: #e03054;
+  --white-three: #e4dee7;
+  --gold: #e7b226;
+  --dark-gray: rgba(37, 25, 40, 1);
+  --gray-four: #594d5e;
+  --bluish: #60e7ce;
+  --bluish-two: rgba(96, 231, 206, 0.67);
+  --bluish-three: rgba(96, 231, 206, 0.5);
+  --gray-five: #a48ea9;
+  --pink-two: #bb00ab;
+  --red-two: rgba(224, 48, 84, 0.93);
+  --gold-two: rgba(231, 178, 38, 0.83);
+  --gold-three: rgba(231, 178, 38, 0.8);
+  --gold-four: rgba(231, 178, 38, 0.7);
+  --white-pink: rgba(247, 215, 255, 1);
+  --oreng: rgba(255, 137, 61, 1);
+  --gold-five: #ffce4e;
+}
